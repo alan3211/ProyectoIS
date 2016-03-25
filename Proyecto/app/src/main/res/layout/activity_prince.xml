@@ -11,8 +11,7 @@
         android:text="@string/welcome"
         android:textColor="#FFF"
         android:fontFamily="Arial"
-        android:paddingLeft="10dp"
-        android:paddingTop="100dp"
+        android:textSize="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
