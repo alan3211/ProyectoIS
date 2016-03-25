@@ -10,6 +10,7 @@
             android:id="@+id/xmensaje"
             android:text="@string/desc"
             android:textColor="#FFF"
+            android:textSize="15dp"
             android:fontFamily="Arial"
             android:paddingLeft="10dp"
             android:paddingTop="100dp"
@@ -20,10 +21,10 @@
             android:id="@+id/xiniciar"
             android:text="Ingresar"
             android:textColor="#FFF"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:background="#B9F21C"
             android:layout_marginTop="240dp"
-            android:layout_marginLeft="120dp"
+            android:layout_marginLeft="130dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
