@@ -28,4 +28,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+    <appwidget-provider
+        android:minWidth="146dp"
+        android:updatePeriodMillis="0"
+        android:minHeight="146dp"
+        android:initialLayout="@layout/activity_main">
+    </appwidget-provider>
+
 </FrameLayout>

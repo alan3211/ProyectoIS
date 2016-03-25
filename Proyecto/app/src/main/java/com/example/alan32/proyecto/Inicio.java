@@ -28,5 +28,6 @@ public class Inicio extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         Toast toat = Toast.makeText(getApplicationContext(),"Iniciando aplicación",Toast.LENGTH_LONG);
         toat.show();
+
     }
 }
