@@ -19,7 +19,7 @@
 
         <Button
             android:id="@+id/xiniciar"
-            android:text="Ingresar"
+            android:text="@string/welcome"
             android:textColor="#FFF"
             android:textSize="20dp"
             android:background="#B9F21C"

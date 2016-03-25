@@ -26,7 +26,7 @@ public class Inicio extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        Intent in = new Intent(Inicio.this,Prince.class);
-        startActivity(in);
+        Toast toat = Toast.makeText(getApplicationContext(),"Iniciando aplicación",Toast.LENGTH_LONG);
+        toat.show();
     }
 }
