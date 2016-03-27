@@ -39,7 +39,5 @@ public class Inicio extends Activity implements View.OnClickListener{
                                                 imagen.startAnimation(mizoom);
                                                 break;
         }
-
-
     }
 }
