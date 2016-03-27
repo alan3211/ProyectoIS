@@ -17,17 +17,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/xiniciar"
-            android:text="@string/welcome"
-            android:textColor="#FFF"
-            android:textSize="20dp"
-            android:background="#B9F21C"
-            android:layout_marginTop="240dp"
-            android:layout_marginLeft="130dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="267dp"
+        android:id="@+id/ximagen"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/texto" />
 
-        <requestFocus android:layout_gravity="center_horizontal|bottom" />
+    <Button
+        android:id="@+id/xiniciar"
+        android:text="@string/welcome"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:background="#B9F21C"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top" />
 
 </FrameLayout>
