@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,26 +17,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    <ImageView
-        android:layout_width="205dp"
-        android:layout_height="322dp"
-        android:id="@+id/ximagen"
-        android:layout_gravity="center"
-        android:background="@drawable/texto"
-        android:layout_below="@+id/xmensaje"
-        android:layout_centerInParent="true" />
+        <Button
+            android:id="@+id/xiniciar"
+            android:text="@string/welcome"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:background="#B9F21C"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/xiniciar"
-        android:text="@string/welcome"
-        android:textColor="#FFF"
-        android:textSize="20dp"
-        android:background="#B9F21C"
-        android:layout_width="111dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|bottom"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="42dp" />
-
-</RelativeLayout>
+</FrameLayout>
