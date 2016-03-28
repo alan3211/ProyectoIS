@@ -22,8 +22,8 @@ public class Prince extends Activity implements View.OnClickListener{
 
     private void enlaza(){
         mensaje = (TextView)findViewById(R.id.xmensaje);
-        cargar = (Button)findViewById(R.id.xcarga);
-        imgview = (ImageView)findViewById(R.id.ximagen);
+        //cargar = (Button)findViewById(R.id.xcarga);
+        //imgview = (ImageView)findViewById(R.id.ximagen);
         cargar.setOnClickListener(this);
     }
 
