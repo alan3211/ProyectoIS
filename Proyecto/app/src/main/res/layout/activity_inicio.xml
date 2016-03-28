@@ -25,19 +25,40 @@
             android:background="#B9F21C"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_marginTop="71dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/xnombre" />
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ximagen"
-        android:background="@drawable/texto"
+        android:text="@string/nombre"
+        android:id="@+id/xnombre"
+        android:autoText="false"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/xmensaje"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/xmensaje"
-        android:layout_above="@+id/xiniciar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xcaja"
+        android:autoText="false"
+        android:focusable="true"
+        android:inputType="text"
+        android:hint="Ingresa tu nombre"
+        android:textColor="#FFF"
+        android:layout_alignTop="@+id/xnombre"
+        android:layout_alignLeft="@+id/xiniciar"
+        android:layout_alignStart="@+id/xiniciar"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:textColorHint="#FFF"
+        android:textColorLink="#FFF" />
 
 </RelativeLayout>
